@@ -1,0 +1,22 @@
+{
+  "name": "social-media-startup-api",
+  "version": "1.0.0",
+  "description": "Back-end functionality for a social media startup, including routes to create and modify users, friend lists, thoughts/posts, and reactions. MongoDB | Mongoose | Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
