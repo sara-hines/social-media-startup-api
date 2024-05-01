@@ -69,7 +69,13 @@ module.exports = {
                 return res.status(404).json({ message: 'User could not be deleted; no user found with this ID.' });
             }
 
-            res.json({ message: 'User successfully deleted!' });
+            const thoughts = await Thought.deleteMany({ username: user.username });
+
+            if (!thoughts) {
+                return res.json({ message: 'User successfully deleted. No thoughts associated with the user were found, so no thoughts were deleted.'})
+            }
+ 
+            res.json({ message: 'User successfully deleted. The user\'s thoughts were deleted as well.' });
         } catch (err) {
         res.status(500).json(err);
         }

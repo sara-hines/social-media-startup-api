@@ -93,7 +93,7 @@ module.exports = {
                 });
             }
 
-            res.json({ message: 'Thought successfylly deleted.' });
+            res.json({ message: 'Thought successfully deleted.' });
         } catch (err) {
             console.log(err);
             res.status(500).json(err);
