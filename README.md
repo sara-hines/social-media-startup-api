@@ -3,19 +3,19 @@
 
 <div align="center">
     <!-- PROJECT SHIELDS -->
-<a href="https://github.com/sara-hines/social-media-startup-api/graphs/contributors">
+    <a href="https://github.com/sara-hines/social-media-startup-api/graphs/contributors" style="text-decoration: none;">
         <img src="https://img.shields.io/github/contributors/sara-hines/social-media-startup-api.svg?style=for-the-badge" alt="Contributors" />
     </a>
-    <a href="https://github.com/sara-hines/social-media-startup-api/network/members">
+    <a href="https://github.com/sara-hines/social-media-startup-api/network/members" style="text-decoration: none;">
         <img src="https://img.shields.io/github/forks/sara-hines/social-media-startup-api.svg?style=for-the-badge" alt="Forks" />
     </a>
-    <a href="https://github.com/sara-hines/social-media-startup-api/stargazers">
+    <a href="https://github.com/sara-hines/social-media-startup-api/stargazers" style="text-decoration: none;">
         <img src="https://img.shields.io/github/stars/sara-hines/social-media-startup-api.svg?style=for-the-badge" alt="Stargazers" />
     </a>
-    <a href="https://github.com/sara-hines/social-media-startup-api/issues">
+    <a href="https://github.com/sara-hines/social-media-startup-api/issues" style="text-decoration: none;">
         <img src="https://img.shields.io/github/issues/sara-hines/social-media-startup-api.svg?style=for-the-badge" alt="Issues" />
     </a>
-    <a href="https://github.com/sara-hines/social-media-startup-api/blob/master/LICENSE.txt">
+    <a href="https://github.com/sara-hines/social-media-startup-api/blob/master/LICENSE.txt" style="text-decoration: none;">
         <img src="https://img.shields.io/github/license/sara-hines/social-media-startup-api.svg?style=for-the-badge" alt="MIT License" />
     </a>
 </div>
