@@ -10,22 +10,23 @@ const reactionSchema = new Schema(
             type: String,
             required: true,
             maxlength: 280,
-        }, 
+        },
         username: {
             type: String,
             required: true,
-        }, 
+        },
         createdAt: {
-            type: Date, 
+            type: Date,
             default: Date.now,
+            // Use the built-in Javascript functions toLocaleDateString() and toLocaleTimeString() to format timestamps.
             get: function (date) {
                 return `${date.toLocaleDateString()} at ${date.toLocaleTimeString()}`;
             },
         },
-    }, 
+    },
     {
         toJSON: {
-          getters: true,
+            getters: true,
         },
         id: false,
     }
