@@ -32,7 +32,7 @@ module.exports = {
         }
     },
 
-    // Logic for the POST route to create a new thought (and associate the thought with the user who posted it). To create a new thought, the userId, username, and thoughtText should ideally be provided in the request body.
+    // Logic for the POST route to create a new thought (and associate the thought with the user who posted it). To create a new thought, the userId, username, and thoughtText should be provided in the request body.
     async createThought(req, res) {
         try {
             const thought = await Thought.create(req.body);
@@ -56,7 +56,7 @@ module.exports = {
         }
     },
 
-    // Logic for the PUT to update a thought by its _id, which must be provided as a request parameter. The request body can contain the thoughtText only, the username only, or the thoughtText and username, depending on what needs to be updated.
+    // Logic for the PUT route to update a thought by its _id, which must be provided as a request parameter. The request body can contain the thoughtText only, the username only, or the thoughtText and username, depending on what needs to be updated.
     async updateThought(req, res) {
         try {
             const thought = await Thought.findOneAndUpdate(

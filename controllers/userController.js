@@ -75,7 +75,7 @@ module.exports = {
             }
 
             // Otherwise, respond that the user and their thoughts were updated.
-            res.json('User successfully updated. The users thoughts were updated to reflect the new username as well.');
+            res.json('User successfully updated. The user\'s thoughts were updated to reflect the new username as well.');
         } catch (err) {
             // Send server error if necessary.
             res.status(500).json(err);
